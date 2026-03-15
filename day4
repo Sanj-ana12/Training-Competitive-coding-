@@ -1,0 +1,131 @@
+# for i in range(1,6):#i=3
+#     if i == 3:
+#         continue
+#     print(i)
+
+# for i,j in zip(range(1,6), range(5,0,-1)): #i=1, j=5
+#     if i == 3 and j == 3:
+#         continue
+#     print(i, " ", j)
+
+# # while loop 
+# i=1 
+# while i<=5:
+#     print(i)
+#     i = i+1
+
+# username = ''
+# password = ''
+# while username != "admin" and password != "hello":
+#     username = input("Enter username: ")
+#     password = input("Enter password: ")
+
+# n = int(input("Enter number: ")) #n=10
+# sum = 0 
+# i = 1 #initialization point 
+# while i<=n:
+#     sum = sum + i
+#     i = i + 1
+#     print("The sum of first", n, "numbers is: ",sum)
+
+# name = "sanjana"
+# newname = " "
+# for i in name: 
+#     if i not in newname:
+#         newname += i
+#         print(name)
+#         print(newname)
+
+# Program to reverse a string using a loop
+# text = input("Enter a string: ")
+# reversed_text = ""
+# for i in text:
+#     reversed_text = i + reversed_text
+# print("Reversed string is:", reversed_text)
+
+# mycart = [10,20,200,300,800,60,700]
+# for i in mycart: # i=5:800
+#     if i > 400:
+#         print("This is my cart purchased item")
+#         continue
+#     print(i)
+
+# # Program to check if a string is palindrome
+# text = input("Enter a string: ")
+# reverse_text = ""
+# for i in text:
+#     reverse_text = i + reverse_text
+# if text == reverse_text:
+#     print("The string is a Palindrome")
+# else:
+#     print("The string is not a Palindrome")
+
+# # Program to check if two strings are anagrams
+# str1 = input("Enter first string: ")
+# str2 = input("Enter second string: ")
+# str1 = str1.replace(" ", "").lower()
+# str2 = str2.replace(" ", "").lower()
+# if sorted(str1) == sorted(str2):
+#     print("The strings are Anagrams")
+# else:
+#     print("The strings are not Anagrams")
+
+# # write a function to add key-value pairs to dictionary 
+# def add_pair(d, key, value):
+#     d[key] = value
+#     return d
+# my_dict = {}
+# key = input("Enter key: ")
+# value = input("Enter value: ")
+# my_dict = add_pair(my_dict, key, value)
+# print("Updated Dictionary:", my_dict)
+
+# # Program to remove a key-value pair from a dictionary
+# my_dict = {
+#     "name": "Sanjana",
+#     "age": 20,
+#     "city": "Nagpur"
+# }
+# key = input("Enter the key you want to remove: ")
+# if key in my_dict:
+#     del my_dict[key]
+#     print("Key-value pair removed successfully")
+# else:
+#     print("Key not found in dictionary")
+# print("Updated dictionary:", my_dict)
+
+# # Program to check if a key exists in a dictionary
+# my_dict = {
+#     "name": "Sanjana",
+#     "age": 20,
+#     "city": "Nagpur"
+# }
+# key = input("Enter the key to check: ")
+# if key in my_dict:
+#     print("Key exists in the dictionary")
+# else:
+#     print("Key does not exist in the dictionary")
+
+# for i in range(1,4): #outer loop => rows
+#     for j in range(1,4): #inner loop => columns 
+#         print("i", end=" ")
+#         print()
+
+# n = int(input("Enter the number of rows: ")) #5
+# for i in range (1,n+1): #i=1
+#     for j in range(1,n+1): #j=2
+#         print(chr(64+i),end=" ") # ASCII 
+#     print()
+
+# n = int(input("Enter the number of rows: "))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         print(n+1-i,end=" ")
+#     print()
+
+# n = int(input("Enter the number of rows: "))
+# for i in range(1,n+1):
+#     for j in range(1,n+2-i):
+#         print("*",end=" ")
+#     print()
+

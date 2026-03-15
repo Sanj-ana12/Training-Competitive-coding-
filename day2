@@ -1,0 +1,128 @@
+#mylist = ["sanjana", "ashish", "komal", "77", "sandeep", "60.25"]
+# print(mylist)
+# print(type(mylist))
+# print(mylist[0])
+# print(mylist[-1])
+# print(mylist[2:5])
+# print(mylist[1:])
+# print(mylist[:])
+# print(mylist[::-1])
+# print(mylist[1:4:2])
+
+# mylist.append('harsh')
+# mylist.append("laxman")
+# print(mylist)
+
+# mylist.insert(1,"sanket")
+# print(mylist)
+
+# mylist.remove("sandeep")
+# print(mylist)
+
+# newlist = mylist.copy()    #cloning
+# print(mylist)
+# print(newlist)
+
+# mylist = [['prashant', 'jha'],['85.56'],[440022,"yyy"]]
+# print("example of multidimensional list: ")
+# print(mylist)
+# print(mylist[0][0])
+# print(mylist[0][1])
+# print(mylist[1][0])
+# print(mylist[2][0])
+# print(mylist[2][1])
+
+# list1 = ["prashant","jha"]
+# print(list1*2)
+
+# list2 = [50,25,50]
+# print(list1+list2)
+
+# list2 = [50,25,50,'prashant']
+# del list2[2]
+# print(list2)
+
+# name = "sanjana"
+# print(name)
+# myname = list(name)     #typecasting 
+# print(myname)
+
+##sorting example 
+# mylist = [44,22,77,0,9,88]         #0,9,22,44,77,88
+# mylist.sort()
+# print(mylist)
+
+# math = 10 
+# phy = 10
+# print(id(math))           #id function is used to return the address of variable 
+# print(id(math))
+
+# aliasing 
+# mylist = [44,22,77,0,9,88]
+# newlist = mylist
+# print(id(mylist))
+# print(id(newlist))
+
+#looping 
+#two types of operator used in pyhton which are membership and identity operator. 
+# membership operator = 1.in      2. not in 
+
+# name = "sanjana"
+# print('Z' in name)
+# print('Z' not in name)
+
+# for i in range(1,11):
+#     print(i*2," ",i*3," ",i*4," ",i*5," ", i*6," ",i*7)
+
+# #simple if 
+# #WAP tp accept any digit and check that pos, neg, zero 
+# no = int(input("enter any digit: "))
+# if no>0:
+#     print('positive')
+# if no<0:
+#     print('negative')
+# if no==0:
+#     print('zero')
+
+# #WAP to accept days and check the working days and weekend 
+# days = input("enter the day: ")
+# if days == "SATURDAY" or "SUNDAY" or "sunday" or "saturday":
+#     print('weekend')
+# else:
+#     print("working days")
+
+# #WAP to accept three papar marks and calculate total, percentage and if percentage is greater than equal to 60 then he/she is eligible for placement 
+# phy = int(input("enter the marks: "))
+# chem = int(input("enter the marks: "))
+# maths = int(input("enter the marks: "))
+# total = phy+chem+maths
+# percentage  = total/3.0
+# print(total)
+# print(percentage)
+# if percentage>= 60:
+#     print('eligible for placement')
+# else:
+#     print('not eligible for placement')
+
+#WAP to accept five different value in 5 different var and check max value and print by using "simple if statement"
+a= int(input("enter the value of a: "))
+b= int(input("enter the value of b: "))
+c= int(input("enter the value of c: "))
+d= int(input("enter the value of d: "))
+e= int(input("enter the value of e: "))
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+
+if a>b and a>c and a>d and a>e:
+    print('a is greater')
+if b>a and b>c and b>d and b>e:
+    print('b is greater')
+if c>a and c>b and c>d and c>e:
+    print('c is greater')
+if d>a and d>b and d>c and d>e:
+    print('d is greater')
+else:
+    print('e is greater')
